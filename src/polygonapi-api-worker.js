@@ -49,7 +49,7 @@ export default {
 			);
 			
 			if (!response.ok) {
-				throw new Error('Failed to fetch stock data');
+				throw new Error('Failed to fetch stock data from API');
 			}
 			
 			const data = await response.json();
