@@ -5,7 +5,7 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "polygonapi-api-worker",
-	"main": "src/index.js",
+	"main": "src/polygonapi-api-worker.js",
 	"compatibility_date": "2026-02-10",
 	"observability": {
 		"enabled": true
